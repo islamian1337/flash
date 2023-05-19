@@ -21,9 +21,13 @@ export interface State {
 
 const initialState: State = {
   user: {
-    displayName: '',
-    age: 0,
-    job: '',
+    email: '...',
+    password: '...',
+    plan: '...',
+    customFields: {
+      userName: '...',
+      avatar: '...',
+    },
   },
 };
 

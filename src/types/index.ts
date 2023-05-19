@@ -5,9 +5,13 @@ import type {FC} from 'react';
 import type {StackNavigationProp} from '@react-navigation/stack';
 
 export interface User {
-  displayName: string;
-  age: number;
-  job: string;
+  email: String;
+  password: String;
+  plan: String;
+  customFields: {
+    userName: String;
+    avatar: String;
+  };
 }
 
 type StackParamList = {

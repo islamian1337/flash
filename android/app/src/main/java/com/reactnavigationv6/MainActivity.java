@@ -1,4 +1,4 @@
-package com.reactnavigationv6;
+package com.Flash;
 
 import android.os.Bundle;
 import com.facebook.react.ReactActivity;
@@ -19,7 +19,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "ReactNavigationV6";
+    return "Flash";
   }
 
   /**

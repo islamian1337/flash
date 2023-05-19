@@ -3,9 +3,13 @@ import React, {useReducer} from 'react';
 import createCtx from '../utils/createCtx';
 
 interface User {
-  displayName: string;
-  age: number;
-  job: string;
+  email: String;
+  password: String;
+  plan: String;
+  customFields: {
+    userName: String;
+    avatar: String;
+  };
 }
 
 interface Context {
@@ -25,9 +29,13 @@ export interface State {
 
 const initialState: State = {
   user: {
-    displayName: '',
-    age: 0,
-    job: '',
+    email: '...',
+    password: '...',
+    plan: '...',
+    customFields: {
+      userName: '...',
+      avatar: '...',
+    },
   },
 };
 

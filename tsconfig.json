@@ -8,7 +8,7 @@
     "**/*.test.tsx",
     "**/*.spec.ts",
     "src/**/*.tsx"
-  ],
+, "src/App.js", "src/components/navigation/StackNavigator.js", "src/components/navigation/SwitchNavigator.js"  ],
   "exclude": [
     "node_modules",
   ],

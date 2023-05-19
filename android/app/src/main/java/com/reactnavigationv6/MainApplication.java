@@ -1,4 +1,4 @@
-package com.reactnavigationv6;
+package com.Flash;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

@@ -3,9 +3,13 @@ import React, {useState} from 'react';
 import createCtx from '../utils/createCtx';
 
 interface User {
-  displayName: string;
-  age: number;
-  job: string;
+  email: String;
+  password: String;
+  plan: String;
+  customFields: {
+    userName: String;
+    avatar: String;
+  };
 }
 
 interface Context {
@@ -21,9 +25,13 @@ interface Props {
 
 function StateProvider({children}: Props): React.ReactElement {
   const [user, setUser] = useState<User>({
-    displayName: '',
-    age: 0,
-    job: 'dev',
+    email: '...',
+    password: '...',
+    plan: '...',
+    customFields: {
+      userName: '...',
+      avatar: '...',
+    },
   });
 
   return (

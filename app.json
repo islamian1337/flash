@@ -1,6 +1,6 @@
 {
-  "name": "ReactNavigationV6",
-  "displayName": "ReactNavigationV6",
+  "name": "Flash",
+  "displayName": "Flash",
   "entryPoint": "index.js",
   "packagerOpts": {
     "assetExts": ["ttf", "png"],

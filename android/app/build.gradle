@@ -93,9 +93,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.reactnavigationv6"
+    namespace "com.Flash"
     defaultConfig {
-        applicationId "com.reactnavigationv6"
+        applicationId "com.Flash"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
